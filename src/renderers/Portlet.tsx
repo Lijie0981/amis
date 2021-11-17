@@ -131,7 +131,7 @@ export interface PortletSchema extends Omit<BaseSchema, 'type'> {
     description?: SchemaTpl;
 
     /**
-     * 影藏头部
+     * 隐藏头部
      */
     hideHeader?: boolean;
 
